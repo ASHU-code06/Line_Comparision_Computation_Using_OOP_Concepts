@@ -39,10 +39,12 @@ public class LineComparision {
         checkIfEquals(len1,len2);
     }
     void checkIfEquals(double len1 , double len2) {
-        if(len1==len2) {
+        if(len1==len2){
             System.out.println("The lines are equal");
-        }else {
-            System.out.println("The lines are not equal");
+        } else if (len1>len2) {
+            System.out.println("The line1 is greater");
+        } else if (len2>len1) {
+            System.out.println("The line2 is greater");
         }
     }
 }
