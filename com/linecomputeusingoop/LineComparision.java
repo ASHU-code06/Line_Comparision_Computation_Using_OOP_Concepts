@@ -3,11 +3,6 @@ package com.linecomputeusingoop;
 import java.util.Scanner;
 
 public class LineComparision {
-    public static void main(String[] args){
-        System.out.println("Welcome to Line Comparison Computation Program");
-        LineComparision obj = new LineComparision();
-        obj.LineLength();
-    }
     void LineLength(){
         //Java Program To Check the length of line
         Scanner myinput = new Scanner(System.in);
